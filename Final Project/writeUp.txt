@@ -1,0 +1,12 @@
+Write Up
+
+1a. For part 1, I used java because it is a object oriented language. Since we needed to make different players and cards. It would make the most sense to use a object oriented language to make multiple player and card objects to complete this task. The reason java was selected compared to another language was because java is well known for being object oriented and compared to Lua, allows the use of brackets which allow cleaner code. This is a must for multi function projects in my opinion.
+    
+1b. For part 2, I used Lua because lua. Since lua was made for scripting, this means that it can compare file input quickly. Also since the program itself is small, it can run its operations quickly, which helps with this project in the edge case that 40 games where played.
+
+2. In lua, while it does have the ability to make objects. It is not as easy to make, or clear to make in lua compared to java (ie. endings, brackets). So I found myself constantly adding a ; or a { } to make the code more legible. (Thanks goodness for notepad++)
+
+3. If i was to split the project in more than 2 coding parts, I would have kept java as the language used to run the game. As for interpreting the output, I would have maybe used Lua for getting the data, but used scheme to calculate the averages. Since scheme does most of its math functions via recursion, it would be easy to line up the data in lua, then just send it over to scheme to get the answer back. The reason for this is to maybe make better use of space since scheme’s tail recursion could help save space.
+
+
+
